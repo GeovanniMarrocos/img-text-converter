@@ -12,5 +12,7 @@
             "email": "geovanni.marrocos@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/var-dumper": "^7.2"
+    }
 }

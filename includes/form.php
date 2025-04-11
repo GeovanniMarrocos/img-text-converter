@@ -1,3 +1,4 @@
+
 <form method="post" enctype="multipart/form-data">
     <div class="row">
         <!-- Coluna da imagem -->
@@ -15,7 +16,7 @@
 
     <div class="row mt-3">
         <div class="col">
-            <button type="submit" class="btn btn-success">Enviar</button>
+            <button type="submit" class="btn btn-success">Converter a imagem</button>
         </div>
     </div>
 </form>

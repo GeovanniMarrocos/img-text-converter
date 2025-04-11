@@ -10,5 +10,5 @@
 
 
 <body class="bg-dark text-light">
-    <div class="container pt-3">
+    <div class="container pt-3 text-center">
     <h1>Conversor de imagens em textos</h1>

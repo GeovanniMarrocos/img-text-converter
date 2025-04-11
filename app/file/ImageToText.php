@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\Services;
+namespace App\file;
 
 class ImageToText
 {
@@ -30,10 +30,15 @@ class ImageToText
      */  
     public function __construct($file)
     {
-        echo "<pre>";
-            dump($file);
-        echo "<pre>";
-        exit;
+       // Carrega a imagem com a biblioteca GD
+       $this->image = imagecreatefromstring(file_get_contents($file));
+       
+       list($this->width, $this->height) = getimagesize($file);
+
+       "<pre>";
+        print_r($this);
+       "</pre>";
+       
     }
 }
 

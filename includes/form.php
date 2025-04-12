@@ -1,4 +1,3 @@
-
 <form method="post" enctype="multipart/form-data">
     <div class="row">
         <!-- Coluna da imagem -->

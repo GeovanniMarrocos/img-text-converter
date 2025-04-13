@@ -61,10 +61,19 @@ class ImageToText
     }
 
     
-
-    private function getResizedImage($newHeigth, &$newHeigth)
+    /**
+    * Método responsável por  redimensionar a imagem a ser convertida
+    * @param int $newHeigth
+    * @param int $newWidth
+    * @return resource
+    */
+     private function getResizedImage($newWidth, &$newHeigth)
     {
-
+        //Proporção original da imagem
+        $ratio = $this->width/$this->height;
+    
+        //Nova altura da imagem
+        $newHeigth = round(($newWidth / $ratio)/2);
     }
 
    /**
@@ -72,10 +81,12 @@ class ImageToText
     * @param int $newWidth
     * @return string
     */
-    public function getText($newWidth)
+    public function getText($newWidth, $newHeigth)
     {
         //Imagem redimensionada
         $image = $this->getResizedImage($newWidth, $newHeigth);
+    
+      
     }
 
     public function __destruct()

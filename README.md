@@ -8,7 +8,6 @@ Transformando Imagem em Texto com GD Library Este projeto converte imagens em te
 
 ![Logo](https://www.php.net//images/logos/new-php-logo.svg)
 
-![Logo](https://getcomposer.org/img/logo-composer-transparent3.png)
 
 
 ## Stack utilizada

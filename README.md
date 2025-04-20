@@ -10,7 +10,7 @@ Transformando Imagem em Texto com GD Library Este projeto converte imagens em te
 
 
 
-## Stack utilizada
+## Stacks utilizadas
 
 **Front-end:** Bootstrap 5.0
 

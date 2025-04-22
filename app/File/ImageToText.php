@@ -76,7 +76,7 @@ class ImageToText
     */
      private function getResizedImage($newWidth,&$newHeigth)
      {
-        // Proporção original da imagem 
+        // Proporção original da image 
         $ratio = $this->width/$this->height;
 
         // Nova altura da imagem 

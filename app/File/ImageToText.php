@@ -88,7 +88,7 @@ class ImageToText
     }
 
     /**
-    * Método responsável por retornar a imagem convertida em text
+    * Método responsável por retornar a imagem convertida em texto
     * @param int $newWidth
     * @return string
     */

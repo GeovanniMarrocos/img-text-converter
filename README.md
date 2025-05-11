@@ -9,7 +9,6 @@ Transformando Imagem em Texto com GD Library Este projeto converte imagens em te
 ![Logo](https://www.php.net//images/logos/new-php-logo.svg)
 
 
-
 ## Stacks utilizadas
 
 **Front-end:** Bootstrap 5.0

@@ -14,4 +14,3 @@ Transformando Imagem em Texto com GD Library Este projeto converte imagens em te
 **Front-end:** Bootstrap 5.0
 
 **Back-end:** PHP 8.3, Composer, Symfony
-
